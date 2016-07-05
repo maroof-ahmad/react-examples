@@ -1,0 +1,36 @@
+#mydiv{
+
+	font-family: sans-serif;
+	font-size: 1em;
+	color: #444;
+	background-color: #ddd;
+	border-radius: 5px;
+	padding: 20px;
+
+}
+ul{
+    list-style:none;
+    display: inline-block;
+}
+
+ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    cursor:pointer;
+    background-color:#eee;
+    color:#7B8585;
+    
+    transition:0.3s;
+}
+
+ul li:hover{
+    background-color:#beecea;
+}
+
+ul li.focused{
+    color:#fff;
+    background-color:#41c7c2;
+}
+p{
+	padding: 10px 20px;
+}
