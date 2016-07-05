@@ -1,0 +1,13 @@
+#mydiv{
+	position : fixed;
+	top : 50%;
+	left : 50%;
+	transform : translate(-50%, -50%);
+	font-family: sans-serif;
+	font-size: 2em;
+	color: #444;
+	background-color: #ddd;
+	border-radius: 5px;
+	padding: 20px;
+
+}
